@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/adfrazier/npm-typeahead/issues"
   },
-  "homepage": "https://github.com/adfrazier/npm-typeahead"
+  "homepage": "https://github.com/adfrazier/npm-typeahead",
+  "dependencies": {
+    "restify": "^2.8.1"
+  }
 }

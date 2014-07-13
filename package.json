@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/adfrazier/npm-typeahead",
   "dependencies": {
+    "elasticsearch": "^2.3.0",
+    "lodash": "^2.4.1",
     "restify": "^2.8.1"
   }
 }

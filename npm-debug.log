@@ -1,0 +1,141 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'npm2es' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose cache add [ 'npm2es', null ]
+5 verbose cache add name=undefined spec="npm2es" args=["npm2es",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'npm2es',
+6 verbose parsed url   path: 'npm2es',
+6 verbose parsed url   href: 'npm2es' }
+7 silly lockFile f0f0bea2-npm2es npm2es
+8 verbose lock npm2es /Users/ADFCEE/.npm/f0f0bea2-npm2es.lock
+9 silly lockFile f0f0bea2-npm2es npm2es
+10 silly lockFile f0f0bea2-npm2es npm2es
+11 verbose addNamed [ 'npm2es', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 8cfced49-npm2es npm2es@
+14 verbose lock npm2es@ /Users/ADFCEE/.npm/8cfced49-npm2es.lock
+15 silly addNameRange { name: 'npm2es', range: '*', hasData: false }
+16 verbose url raw npm2es
+17 verbose url resolving [ 'https://registry.npmjs.org/', './npm2es' ]
+18 verbose url resolved https://registry.npmjs.org/npm2es
+19 info trying registry request attempt 1 at 12:36:49
+20 verbose etag "8SCA3IHXD63OEY9S427RZ9VEG"
+21 http GET https://registry.npmjs.org/npm2es
+22 http 304 https://registry.npmjs.org/npm2es
+23 silly registry.get cb [ 304,
+23 silly registry.get   { date: 'Sun, 13 Jul 2014 19:36:50 GMT',
+23 silly registry.get     server: 'Apache',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'last-modified': 'Sun, 13 Jul 2014 19:36:50 GMT',
+23 silly registry.get     'cache-control': 'max-age=30',
+23 silly registry.get     etag: '"8SCA3IHXD63OEY9S427RZ9VEG"',
+23 silly registry.get     'x-served-by': 'cache-sjc3125-SJC',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1405280210.005175,VS0,VE164',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'content-length': '0',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 verbose etag npm2es from cache
+25 silly addNameRange number 2 { name: 'npm2es', range: '*', hasData: true }
+26 silly addNameRange versions [ 'npm2es',
+26 silly addNameRange   [ '0.1.0',
+26 silly addNameRange     '0.1.1',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.2.1',
+26 silly addNameRange     '0.2.2',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.4.1',
+26 silly addNameRange     '0.4.2',
+26 silly addNameRange     '0.4.3',
+26 silly addNameRange     '0.4.4',
+26 silly addNameRange     '0.4.5' ] ]
+27 verbose addNamed [ 'npm2es', '0.4.5' ]
+28 verbose addNamed [ '0.4.5', '0.4.5' ]
+29 silly lockFile db67ad70-npm2es-0-4-5 npm2es@0.4.5
+30 verbose lock npm2es@0.4.5 /Users/ADFCEE/.npm/db67ad70-npm2es-0-4-5.lock
+31 silly lockFile db67ad70-npm2es-0-4-5 npm2es@0.4.5
+32 silly lockFile db67ad70-npm2es-0-4-5 npm2es@0.4.5
+33 silly lockFile 8cfced49-npm2es npm2es@
+34 silly lockFile 8cfced49-npm2es npm2es@
+35 silly resolved [ { name: 'npm2es',
+35 silly resolved     version: '0.4.5',
+35 silly resolved     description: 'push npm package metadata into elasticsearch for querying',
+35 silly resolved     main: 'index.js',
+35 silly resolved     scripts: { test: 'node test/test.js' },
+35 silly resolved     bin: { npm2es: 'bin/npm2es.js' },
+35 silly resolved     repository: { type: 'git', url: 'git://github.com/solids/npm2es.git' },
+35 silly resolved     keywords: [ 'npm', 'elasticsearch', 'es', 'search', 'packages' ],
+35 silly resolved     author: { name: 'Elijah Insua', email: 'tmpvar@gmail.com' },
+35 silly resolved     license: 'MIT',
+35 silly resolved     dependencies:
+35 silly resolved      { follow: '~0.10.4',
+35 silly resolved        request: '~2.21',
+35 silly resolved        optimist: '~0.3.7',
+35 silly resolved        'npm-normalize': '~0.2.0',
+35 silly resolved        extend: '~1.1.3' },
+35 silly resolved     devDependencies: { tap: '~0.4.1', rimraf: '~2.1.4' },
+35 silly resolved     bugs: { url: 'https://github.com/solids/npm2es/issues' },
+35 silly resolved     homepage: 'https://github.com/solids/npm2es',
+35 silly resolved     _id: 'npm2es@0.4.5',
+35 silly resolved     dist:
+35 silly resolved      { shasum: '29758045f512a0209a66987eb512344074f2fd7d',
+35 silly resolved        tarball: 'http://registry.npmjs.org/npm2es/-/npm2es-0.4.5.tgz' },
+35 silly resolved     _from: 'npm2es@',
+35 silly resolved     _npmVersion: '1.3.24',
+35 silly resolved     _npmUser: { name: 'tmpvar', email: 'tmpvar@gmail.com' },
+35 silly resolved     maintainers: [ [Object] ],
+35 silly resolved     directories: {},
+35 silly resolved     _shasum: '29758045f512a0209a66987eb512344074f2fd7d',
+35 silly resolved     _resolved: 'https://registry.npmjs.org/npm2es/-/npm2es-0.4.5.tgz',
+35 silly resolved     readme: 'ERROR: No README data found!' } ]
+36 info install npm2es@0.4.5 into /usr/local/lib
+37 info installOne npm2es@0.4.5
+38 info /usr/local/lib/node_modules/npm2es unbuild
+39 verbose tar unpack /Users/ADFCEE/.npm/npm2es/0.4.5/package.tgz
+40 silly lockFile 50130d14-sr-local-lib-node-modules-npm2es tar:///usr/local/lib/node_modules/npm2es
+41 verbose lock tar:///usr/local/lib/node_modules/npm2es /Users/ADFCEE/.npm/50130d14-sr-local-lib-node-modules-npm2es.lock
+42 silly lockFile ec0cbe75-CEE-npm-npm2es-0-4-5-package-tgz tar:///Users/ADFCEE/.npm/npm2es/0.4.5/package.tgz
+43 verbose lock tar:///Users/ADFCEE/.npm/npm2es/0.4.5/package.tgz /Users/ADFCEE/.npm/ec0cbe75-CEE-npm-npm2es-0-4-5-package-tgz.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 error Error: EACCES, mkdir '/usr/local/lib/node_modules/npm2es'
+45 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/npm2es']
+45 error   errno: 3,
+45 error   code: 'EACCES',
+45 error   path: '/usr/local/lib/node_modules/npm2es',
+45 error   fstream_type: 'Directory',
+45 error   fstream_path: '/usr/local/lib/node_modules/npm2es',
+45 error   fstream_class: 'DirWriter',
+45 error   fstream_stack:
+45 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+45 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+45 error      'Object.oncomplete (fs.js:107:15)' ] }
+46 error Please try running this command again as root/Administrator.
+47 error System Darwin 13.2.0
+48 error command "node" "/usr/local/bin/npm" "install" "-g" "npm2es"
+49 error cwd /Users/ADFCEE/Documents/Projects/npm-typeahead
+50 error node -v v0.10.29
+51 error npm -v 1.4.14
+52 error path /usr/local/lib/node_modules/npm2es
+53 error fstream_path /usr/local/lib/node_modules/npm2es
+54 error fstream_type Directory
+55 error fstream_class DirWriter
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/npm2es'
+59 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+59 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+59 error fstream_stack Object.oncomplete (fs.js:107:15)
+60 verbose exit [ 3, true ]
